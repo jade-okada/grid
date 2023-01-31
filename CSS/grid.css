@@ -1,0 +1,117 @@
+/* Grid Início 
+.container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 50px auto 10%;
+    height: 35vh;
+    grid-template-rows: 70% 30%;
+    gap: 5px;
+    grid-row-gap: 0ch;
+    grid-column-gap: 0ch;
+}
+
+.container div {
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+} */
+
+/* Template Areas:  
+.container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+        'header header header header'
+        'sidebar content content content'
+        'footer footer footer footer';
+}
+
+.container div {
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+#header {
+    grid-area: header
+}
+
+#sidebar {
+    grid-area: sidebar
+}
+
+#content {
+    grid-area: content;
+    height: 50vh;
+}
+
+#footer {
+    grid-area: footer
+}*/
+
+/*Alinhamento
+.container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}*/
+
+/*Itens Individuais
+.container {
+    background-color: #333;
+    border: 1px solid red;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.container div {
+    background-color: #ccc;
+    border: 1px solid blue;
+    padding: 20px;
+}
+
+#iten1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#iten2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#iten3 {
+    justify-self: end;
+    height: 200px;
+}
+
+#iten5 {
+    justify-self: start;
+    height: 200px;
+}
+
+#iten4 {
+    align-self: center;
+}
+
+#iten6 {
+    align-self: end;
+}*/

@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: darkcyan;
+}
+
+section {
+    background-color: coral;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10%;
+
+}
+
+.father-cont {
+    border: 1px solid yellow;
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 100%;
+    margin: 0;
+    /* justify-content: center; */
+}
+
+
+.container {
+    background-color: ghostwhite;
+    border: 2px solid black;
+    max-width: 50%;
+    height: 400px;
+    flex: 40%;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    background-color: darkmagenta;
+    border: 2px solid greenyellow;
+    height: 80px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 45px;
+    margin: 5px; */
+
+}
+
+/* #card1 {
+    flex-basis: 100px;
+    flex-shrink: 2;
+
+}
+
+#card2,
+#card3 {
+    flex-grow: 1;
+} */
+
+
+/* MANEIRA DE MODIFICAR A ORDEM DOS ITENS!
+ #b1 {
+    order: 3;
+}
+
+#b2 {
+    order: 1;
+}
+
+#b3 {
+    order: 2;
+} */
+
+.container2 {
+    background-color: blueviolet;
+    border: 2px solid red;
+    padding: 10px;
+    /* max-width: 400px; */
+    flex: 40%;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.block {
+    background-color: dimgray;
+    border: 2px solid greenyellow;
+    font-size: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    background-color: darkmagenta;
+    border: 2px solid greenyellow;
+    height: 80px;
+    width: 80px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+
+    /*shorthand flexbox= flex: 1 1 50px; (grow shrink e basis respectivamente)*/
+}
+
+
+/* #c3 {
+    flex-grow: 2;
+
+}
+
+#c1 {
+    flex-shrink: 3;
+}
+
+#c2,
+#c4 {
+    flex-grow: 1;
+}
+
+#c5 {
+    flex-grow: 3;
+    flex-basis: 200px;
+} */
+
+.img {
+    text-align: center;
+    padding: 5px;
+}
